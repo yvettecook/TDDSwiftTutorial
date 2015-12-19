@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7706FB1C1A1277007670BA /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7706FA1C1A1277007670BA /* BrainTests.swift */; };
+		1A7706FD1C1A19E9007670BA /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7706FC1C1A19E9007670BA /* Brain.swift */; };
 		1A8397171C050435001BFD52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8397161C050435001BFD52 /* AppDelegate.swift */; };
 		1A8397191C050435001BFD52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8397181C050435001BFD52 /* ViewController.swift */; };
 		1A83971C1C050435001BFD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A83971A1C050435001BFD52 /* Main.storyboard */; };
 		1A83971E1C050435001BFD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A83971D1C050435001BFD52 /* Assets.xcassets */; };
 		1A8397211C050435001BFD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A83971F1C050435001BFD52 /* LaunchScreen.storyboard */; };
-		1A83972C1C050436001BFD52 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A83972B1C050436001BFD52 /* FizzBuzzTests.swift */; };
 		1A8397371C050436001BFD52 /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8397361C050436001BFD52 /* FizzBuzzUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A7706FA1C1A1277007670BA /* BrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
+		1A7706FC1C1A19E9007670BA /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		1A8397131C050435001BFD52 /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8397161C050435001BFD52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8397181C050435001BFD52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +45,6 @@
 		1A8397201C050435001BFD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A8397221C050435001BFD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8397271C050436001BFD52 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A83972B1C050436001BFD52 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
 		1A83972D1C050436001BFD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8397321C050436001BFD52 /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8397361C050436001BFD52 /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				1A8397161C050435001BFD52 /* AppDelegate.swift */,
 				1A8397181C050435001BFD52 /* ViewController.swift */,
+				1A7706FC1C1A19E9007670BA /* Brain.swift */,
 				1A83971A1C050435001BFD52 /* Main.storyboard */,
 				1A83971D1C050435001BFD52 /* Assets.xcassets */,
 				1A83971F1C050435001BFD52 /* LaunchScreen.storyboard */,
@@ -110,7 +113,7 @@
 		1A83972A1C050436001BFD52 /* FizzBuzzTests */ = {
 			isa = PBXGroup;
 			children = (
-				1A83972B1C050436001BFD52 /* FizzBuzzTests.swift */,
+				1A7706FA1C1A1277007670BA /* BrainTests.swift */,
 				1A83972D1C050436001BFD52 /* Info.plist */,
 			);
 			path = FizzBuzzTests;
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8397191C050435001BFD52 /* ViewController.swift in Sources */,
+				1A7706FD1C1A19E9007670BA /* Brain.swift in Sources */,
 				1A8397171C050435001BFD52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A83972C1C050436001BFD52 /* FizzBuzzTests.swift in Sources */,
+				1A7706FB1C1A1277007670BA /* BrainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				1A83973D1C050436001BFD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A83973E1C050436001BFD52 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				1A8397401C050436001BFD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A8397411C050436001BFD52 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				1A8397431C050436001BFD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

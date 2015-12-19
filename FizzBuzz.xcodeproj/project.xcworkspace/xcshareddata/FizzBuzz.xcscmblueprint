@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD299524412970ABA06394D9490882A33DAE2DE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FA310FAF2F5DE8FDC677F45F8EC8C6E6609FA9EB" : 0,
+    "CD299524412970ABA06394D9490882A33DAE2DE2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A0EB012B-976D-49D3-A3C4-0D7A29673589",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FA310FAF2F5DE8FDC677F45F8EC8C6E6609FA9EB" : "",
+    "CD299524412970ABA06394D9490882A33DAE2DE2" : "FizzBuzz\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FizzBuzz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FizzBuzz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yvettecook\/TDDSwiftTutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD299524412970ABA06394D9490882A33DAE2DE2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yvettecook\/TDDSwiftTutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA310FAF2F5DE8FDC677F45F8EC8C6E6609FA9EB"
+    }
+  ]
+}
